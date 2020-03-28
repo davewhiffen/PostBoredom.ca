@@ -46,28 +46,32 @@
 <!-- /* Nessessary style declarations that didn't work in this before. */ --->
     <style>
         
-    .header{
+.responsive {
+max-width: 100%;
+  height: auto;
+}
+        
+        
+        
+.header{
     font-size: 30px;
     font-weight: bold;
     margin-top:50px;
     margin-bottom:50px;
     }
-    </style>
-    
-    <style>.img-avatar {
-  border-radius: 50%;
-}</style> 
    
-    <style>
-
+.img-avatar {
+  border-radius: 50%;
+        }
+   
     
     
-    .orange{background-color:#3f51b5!important}
+.orange{background-color:#3f51b5!important}
 
-    .orange-text{color:#3f51b5!important}
+.orange-text{color:#3f51b5!important}
 
     
-    .white-text{color:#fff!important}
+.white-text{color:#fff!important}
     
     .white-lighter-hover {
       color: #fff;!important
@@ -128,12 +132,11 @@
   color: #2b387c; }
   
     
+        
+        
     
     
-    
-</style>
-               
-    <style>    .orange{background-color:#3f51b5!important}
+   .orange{background-color:#3f51b5!important}
 
     .orange-text{color:#3f51b5!important}
 
@@ -197,6 +200,143 @@
   -webkit-transition: .4s;
   transition: .4s;
   color: #2b387c; }
+        
+        
+
+
+.table-agenda {
+	padding:10px;
+	background-color:black;
+}
+
+.slideshow-full {
+	max-width: 525px;
+	width: 100%;
+	height:auto;
+	padding:10px;
+	border-radius: 25%;
+}
+
+.gallery-speakers {
+	width: 75px;
+	height:auto;
+	padding:10px;
+	border-radius: 5%;
+}
+
+.align-center {
+	align-content: center; 
+}
+
+.shadowed {
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 
+  rgba(0,0,0,0.19);
+}
+
+.rounded-img {
+	border-radius: 2%;
+}
+
+.speaker-img {
+	max-width: 200px;
+	width: 100%;
+	height:auto;
+	border-radius: 2%;
+	padding:10px;
+	
+}
+
+	
+
+a {
+  text-decoration: underline;
+	transition: transform .2s;
+}
+a:hover {
+  text-decoration: underline;
+	color:#4a7cd8;
+	 transform: scale(1.1);
+}
+
+img {
+
+	transition: transform .2s;
+}
+
+img:hover {
+	max-width: 100%;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	 transform: scale(1.1);
+}
+
+.button-red {
+  background-color: #cc0000;
+  border:1px solid #671010;
+  color: white;
+  padding: 20px 60px;
+  margin:-70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 
+  rgba(0,0,0,0.19);
+}
+
+.button-red:hover {
+  background-color: #ff2d2d; /* Light Red */
+  color: white;
+}
+
+
+
+	.button-blue {
+  background-color:      #1414b9;
+  color: white;
+  padding: 20px 60px;
+	margin-top:15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 
+  rgba(0,0,0,0.19);
+	transition: transform .2s;
+}
+
+.button-blue:hover {
+  background-color:#1e1eeb;
+  color: white;
+	 transform: scale(1.1);
+}
+
+
+
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%;
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; } 
+
+.embed-container iframe, .embed-container object, .embed-container embed {  position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+        
+        
+        
+        
+        
+        
   </style>     
                 
 </head>
@@ -250,16 +390,10 @@
     </ol></nav>     
     </div> 
     <!-- /* End Breadcrumbs Navigation -->    
-      
-      <style>
-        .responsive {
-max-width: 100%;
-  height: auto;
 
-}
         
-        </style>
-      
+        
+           <img height="auto" width="200" class=" speaker-img view overlay zoom rounded-img z-depth-responsive headshots" src="img/headshots/surya.png">  
         
         
             <div style="padding-bottom:50px;"></div>   
@@ -327,20 +461,21 @@ max-width: 100%;
              
        
              
+                <div class=" zoom">
+                <img src="img/headshots/dave.png" class="img-fluid zpom headshots shadow z-depth-1" alt="Save the Date">
+             </div>
              
              
              
              
              
+             <a href="http://www.davidwhiffen.com/"><img height="width" width="200" class="speaker-img view overlay zoom rounded-img z-depth-responsive headshots" src="img/headshots/dave.png"></a>
              
-             
-         <img height="auto" width="200" class="view overlay zoom rounded z-depth responsive headshots" src="img/headshots/dave.png">
-             
-        <img height="auto" width="200" class="view overlay zoom rounded z-depth responsive headshots" src="img/headshots/kevin.png">
+        <img height="auto" width="200" class=" rounded-img view overlay shadow zoom hover rounded z-depth responsive headshots" src="img/headshots/kevin.png">
 
                 
                  
-        <img height="auto" width="200" class="view overlay zoom rounded z-depth responsive headshots" src="img/headshots/caleigh.jpg">
+        <img height="auto" width="200" class="headshots view overlay zoom rounded z-depth " src="img/headshots/caleigh.jpg">
              
         <img height="auto" width="200" class="view overlay zoom rounded z-depth responsive headshots" src="img/headshots/victor.png">
              
@@ -362,7 +497,7 @@ max-width: 100%;
              
         <img height="auto" width="200" class="view overlay rounded zoom rounded z-depth responsive headshots" src="img/headshots/rohit.png">     
              
-        <img height="auto" width="200" class="view overlay zoom rounded z-depth-responsive headshots" src="img/headshots/surya.png">    
+        <img height="auto" width="200" class=" speaker-img view overlay zoom rounded-img z-depth-responsive headshots" src="img/headshots/surya.png">    
              
         <img height="auto" width="200" class="view overlay zoom rounded z-depth-responsive headshots" src="img/headshots/puneet.png">    
              
@@ -437,6 +572,8 @@ max-width: 100%;
             
             
       <!--/* Rise and Fall */ -->
+         
+         
             <div class="col-lg-4 col-md-6 orange-lighter-hover">
     
             <!--/* Photo of Project */ -->
